@@ -1,0 +1,34 @@
+# Enable PHP handling
+<IfModule mod_php7.c>
+    php_flag display_errors On
+    php_value error_reporting E_ALL
+</IfModule>
+
+# URL rewriting (optional)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Redirect to HTTPS (uncomment when ready for production)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    
+    # Handle requests for non-existent files or directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Uncomment the line below if you want to use pretty URLs
+    # RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Prevent directory listing
+Options -Indexes
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
