@@ -123,7 +123,7 @@ if(!isset($_SESSION)) { session_start(); }
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 animate-slide-up">
                 <!-- Team Member 1 -->
                 <div class="team-member-card bg-white rounded-xl overflow-hidden shadow-md">
-                    <div class="member-img h-40 bg-gradient-to-r from-teal-500 to-teal-600 flex items-center justify-center p-5">
+                    <div class="member-img h-40 bg-green-200  flex items-center justify-center p-5">
                         <h3 class="text-2xl font-bold text-white">SHUBHAM KUMAR SINGH</h3>
                     </div>
                     <div class="p-6">
@@ -141,11 +141,13 @@ if(!isset($_SESSION)) { session_start(); }
 
                 <!-- Team Member 2 -->
                 <div class="team-member-card bg-white rounded-xl overflow-hidden shadow-md">
-                    <div class="member-img h-40 bg-gradient-to-r from-teal-600 to-teal-700 flex items-center justify-center p-5">
+                    <div class="member-img h-40 bg-green-200 flex items-center justify-center p-5">
                         <h3 class="text-2xl font-bold text-white">KUNDAN KUMAR</h3>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-1 text-gray-800">KUNDAN KUMAR</h3>
+
+
+                        <h3 class="text-xl font-bold mb-1 text-gray-800">KUNDAN KUMAR SHARMA</h3>
                         <div class="w-10 h-1 bg-teal-600 mb-3"></div>
                         <p class="text-teal-600 font-medium mb-3 text-sm">UI/UX DESIGNER</p>
                         <p class="text-gray-600 text-sm mb-4">Created the beautiful interface and responsive design that makes FolioForge a pleasure to use.</p>
@@ -159,7 +161,7 @@ if(!isset($_SESSION)) { session_start(); }
 
                 <!-- Team Member 3 -->
                 <div class="team-member-card bg-white rounded-xl overflow-hidden shadow-md">
-                    <div class="member-img h-40 bg-gradient-to-r from-teal-700 to-teal-800 flex items-center justify-center p-5">
+                    <div class="member-img h-40 bg-green-200 flex items-center justify-center p-5">
                         <h3 class="text-2xl font-bold text-white">NIKHIL KUMAR SINGH</h3>
                     </div>
                     <div class="p-6">
@@ -177,10 +179,10 @@ if(!isset($_SESSION)) { session_start(); }
 
                 <!-- Team Member 4 -->
                 <div class="team-member-card bg-white rounded-xl overflow-hidden shadow-md">
-                    <div class="member-img h-40 bg-gradient-to-r from-teal-500 to-teal-700 flex items-center justify-center p-5">
+                    <div class="member-img h-40 bg-green-200 flex items-center justify-center p-5">
                         <h3 class="text-2xl font-bold text-white">NITHIN</h3>
                     </div>
-                    <div class="p-6">
+                    <div class="p-5">
                         <h3 class="text-xl font-bold mb-1 text-gray-800">NITHIN</h3>
                         <div class="w-10 h-1 bg-teal-500 mb-3"></div>
                         <p class="text-teal-600 font-medium mb-3 text-sm">PROJECT MANAGER</p>
