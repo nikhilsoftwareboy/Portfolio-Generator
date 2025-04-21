@@ -1,0 +1,197 @@
+/* Last Modified: <?php echo date('Y-m-d H:i:s'); ?> */
+/* Custom styles for the portfolio generator */
+
+/* Colors:
+   - Gunmetal: #2C3539 (dark charcoal gray with a slight blue tint)
+   - Teal: #008080 (a balanced blue-green)
+   - Columbia Blue: #CCDFEB (light blue with gray undertones)
+   - Lavender: #E6E6FA (light purple)
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+main {
+    flex: 1;
+}
+
+/* Gradient backgrounds */
+.gradient-primary {
+    background: linear-gradient(to right, #008080, #E6E6FA);
+}
+
+.gradient-header {
+    background: linear-gradient(to right, #2C3539, #008080);
+}
+
+.gradient-card-header {
+    background: linear-gradient(to right, #008080, #2C3539);
+    color: white;
+}
+
+/* Card styles */
+.card-custom {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effects */
+.hover-card {
+    transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links */
+.nav-link-custom {
+    color: white;
+    padding: 0.5rem;
+    transition: all 0.3s;
+}
+
+.nav-link-custom:hover {
+    color: #E6E6FA;
+}
+
+.nav-link-active {
+    border-bottom: 2px solid white;
+}
+
+/* Footer styles */
+.footer-custom {
+    background-color: #2C3539;
+    color: white;
+}
+
+/* Custom buttons */
+.btn-primary-custom {
+    background: linear-gradient(to right, #008080, #2C3539);
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-primary-custom:hover {
+    background: linear-gradient(to right, #007373, #1a2023);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary-custom {
+    background: #f3f4f6;
+    color: #4b5563;
+    border: 1px solid #e5e7eb;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-secondary-custom:hover {
+    background: #e5e7eb;
+}
+
+/* Portfolio template section titles */
+.section-title {
+    border-bottom: 2px solid #CCDFEB;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #2C3539;
+}
+
+/* Custom input styles */
+.input-custom:focus {
+    border-color: #008080;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 128, 128, 0.2);
+}
+
+/* Alert styles */
+.alert-success-custom {
+    background-color: #d1fae5;
+    border-left: 4px solid #10b981;
+    color: #065f46;
+}
+
+.alert-info-custom {
+    background-color: #e0f2fe;
+    border-left: 4px solid #0ea5e9;
+    color: #0369a1;
+}
+
+.alert-warning-custom {
+    background-color: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    color: #b45309;
+}
+
+.alert-danger-custom {
+    background-color: #fee2e2;
+    border-left: 4px solid #ef4444;
+    color: #b91c1c;
+}
+
+/* Text colors */
+.text-gunmetal {
+    color: #2C3539;
+}
+
+.text-teal {
+    color: #008080;
+}
+
+.text-columbia-blue {
+    color: #CCDFEB;
+}
+
+.text-lavender {
+    color: #E6E6FA;
+}
+
+/* Background colors */
+.bg-gunmetal {
+    background-color: #2C3539;
+}
+
+.bg-teal {
+    background-color: #008080;
+}
+
+.bg-columbia-blue {
+    background-color: #CCDFEB;
+}
+
+.bg-lavender {
+    background-color: #E6E6FA;
+}
+
+/* Simple animations */
+.animate-fade-in { 
+    animation: fadeIn 0.8s;
+}
+
+.animate-slide-up { 
+    animation: slideUp 0.6s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* For text gradients */
+.text-primary-gradient {
+    background: linear-gradient(to right, #008080, #2C3539);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
