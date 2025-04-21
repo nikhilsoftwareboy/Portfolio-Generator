@@ -242,14 +242,14 @@ $db_needs_update = empty($industries) && empty($service_types);
                     <div class="mb-4">
                         <i class="fas fa-quote-left text-teal-500 opacity-50 text-3xl"></i>
                     </div>
-                    <p class="text-gray-700 mb-6 italic">"FolioForge helped me showcase my design portfolio in a professional way. I've received three new client projects since joining the platform!"</p>
+                    <p class="text-gray-700 mb-6 italic">"I genuinely liked the portfolio website. It reflects a strong sense of creativity and professionalism. The content is engaging, and it clearly showcases your skills and achievements. As a fellow student, I found it inspiring and motivating. It sets a great example for others aiming to build their own portfolios."</p>
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-teal-700 font-bold">SD</span>
+                            <span class="text-teal-700 font-bold">SH</span>
                         </div>
                         <div>
-                            <h4 class="font-bold">Sarah Designs</h4>
-                            <p class="text-sm text-gray-500">Graphic Designer</p>
+                            <h4 class="font-bold">Shrikant </h4>
+                            <p class="text-sm text-gray-500">Student</p>
                         </div>
                     </div>
                 </div>
@@ -258,14 +258,14 @@ $db_needs_update = empty($industries) && empty($service_types);
                     <div class="mb-4">
                         <i class="fas fa-quote-left text-teal-500 opacity-50 text-3xl"></i>
                     </div>
-                    <p class="text-gray-700 mb-6 italic">"As a startup founder, I needed to find specialized developers quickly. The filtering system on FolioForge helped me connect with the perfect match for my project."</p>
+                    <p class="text-gray-700 mb-6 italic">"I found the portfolio website quite impressive. It effectively highlights your talents and gives a clear picture of your capabilities. The overall presentation left a positive impression, and I truly appreciate the effort put into it. It’s encouraging to see such work from a fellow student at this stage."</p>
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-teal-700 font-bold">JT</span>
+                            <span class="text-teal-700 font-bold">MR</span>
                         </div>
                         <div>
-                            <h4 class="font-bold">James Tech</h4>
-                            <p class="text-sm text-gray-500">Startup Founder</p>
+                            <h4 class="font-bold">Mohit Raj</h4>
+                            <p class="text-sm text-gray-500">Student</p>
                         </div>
                     </div>
                 </div>
@@ -274,14 +274,14 @@ $db_needs_update = empty($industries) && empty($service_types);
                     <div class="mb-4">
                         <i class="fas fa-quote-left text-teal-500 opacity-50 text-3xl"></i>
                     </div>
-                    <p class="text-gray-700 mb-6 italic">"The client testimonials feature has been a game-changer for me. Being able to showcase feedback from previous clients has greatly increased my credibility."</p>
+                    <p class="text-gray-700 mb-6 italic">"I really appreciated your portfolio website. It showcases your dedication and passion for your work. The way you've presented your achievements is inspiring, and it motivates me to work on my own goals. It's clear that a lot of thought and effort went into creating it. Well done!"</p>
                     <div class="flex items-center">
                         <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-teal-700 font-bold">MW</span>
+                            <span class="text-teal-700 font-bold">KG</span>
                         </div>
                         <div>
-                            <h4 class="font-bold">Mark Writer</h4>
-                            <p class="text-sm text-gray-500">Content Strategist</p>
+                            <h4 class="font-bold">Kritik Grewal</h4>
+                            <p class="text-sm text-gray-500">Student</p>
                         </div>
                     </div>
                 </div>
@@ -330,9 +330,9 @@ $db_needs_update = empty($industries) && empty($service_types);
                 <div>
                     <h4 class="text-xl font-bold mb-4">Contact Us</h4>
                     <ul class="space-y-2">
-                        <li class="flex items-start"><i class="fas fa-envelope mt-1.5 mr-3 text-gray-400"></i> info@portfoliogenerator.com</li>
-                        <li class="flex items-start"><i class="fas fa-phone mt-1.5 mr-3 text-gray-400"></i> +1 (555) 123-4567</li>
-                        <li class="flex items-start"><i class="fas fa-map-marker-alt mt-1.5 mr-3 text-gray-400"></i> 123 Portfolio St, Creative City</li>
+                        <li class="flex items-start"><i class="fas fa-envelope mt-1.5 mr-3 text-gray-400"></i> nikhilkumarsingh231@lpu.in</li>
+                        <li class="flex items-start"><i class="fas fa-phone mt-1.5 mr-3 text-gray-400"></i> +91 987654321</li>
+                        <li class="flex items-start"><i class="fas fa-map-marker-alt mt-1.5 mr-3 text-gray-400"></i> Lovely Professional University, Phagwara Punjab</li>
                     </ul>
                 </div>
             </div>
